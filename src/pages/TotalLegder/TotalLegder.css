@@ -1,0 +1,88 @@
+.lena-dena {
+    background: linear-gradient(to right, #2f5b69 0, #47889e 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+  }
+  .date-search {
+    display: flex;
+    gap: 20px;
+  }
+  .date-search > input {
+    width: 180px;
+    height: 30px;
+  }
+  .date-search > select {
+    width: 180px;
+    height: 30px;
+  }
+  .lena-dena-search {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  .lena-score {
+    background: #fff;
+    border: 2px solid #4dc0c1;
+    padding: 1px 3px;
+    height: 34px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .lena,
+  .dena,
+  .balance {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .dena-score {
+    background: #fff;
+    border: 2px solid #4dc0c1;
+    padding: 1px 3px;
+    height: 34px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .score-main {
+    align-items: center;
+    height: 60px;
+    display: flex;
+    gap: 50px;
+    background: #f3f0dc;
+  }
+  
+  @media (max-width: 900px) {
+    .lena-dena-table {
+      overflow-y: auto;
+    }
+    .score-main {
+      height: 128px;
+      justify-content: center;
+      gap: 9px;
+      flex-wrap: wrap;
+    }
+    .score-lena,
+    .score-dena {
+      display: flex;
+      gap: 60px;
+    }
+    .score-balance {
+      display: flex;
+      gap: 29px;
+    }
+  }
+  

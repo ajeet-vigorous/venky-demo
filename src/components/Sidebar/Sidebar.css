@@ -1,0 +1,57 @@
+.left-side-bar {
+  width: 15%;
+  float: left;
+  height: 100vh;
+  margin-right: 5px;
+  background-image: linear-gradient(132deg,
+      #eae7d3 8.33%,
+      #f3f0dc 8.33%,
+      #f3f0dc 50%,
+      #eae7d3 50%,
+      #eae7d3 58.33%,
+      #f3f0dc 58.33%,
+      #f3f0dc 100%);
+  background-size: 10.35px 10px;
+  -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.play-left,
+.cricket-left,
+.tennis-left,
+.soccer-left {
+  margin: 0px;
+  color: #212529;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sport-left {
+  margin: 0px;
+  background: linear-gradient(90deg, #ffc21d 0, rgba(255, 255, 255, 0) 100%);
+  color: #212529;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+
+.collapse ul {
+  padding: 0px;
+  margin-bottom: 0px;
+  background: #fff;
+}
+
+.collapse ul li {
+  list-style: none;
+  padding: 5px;
+  border-bottom: solid 1px #ddd;
+}
+
+@media (max-width: 900px) {
+  .left-side-bar {
+    display: none;
+  }
+}

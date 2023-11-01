@@ -1,0 +1,56 @@
+.live-casino-nav {
+    height: 35px;
+    margin-top: 1rem;
+    align-items: center;
+    margin-left: 1rem;
+    background: linear-gradient(to right, #2f5b69 0, #47889e 100%);
+    display: flex;
+    justify-content: space-between;
+  }
+  .live-casino {
+    color: white;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .live-casino-btn {
+    background: #e2a521;
+    border: none;
+    width: 57px;
+    height: 26px;
+    color: black;
+    margin-right: 2rem;
+    border-radius: 2px;
+  }
+  .casino-game-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 10px;
+  }
+  .card-body {
+    text-align: center;
+    color: white;
+    background: #043563;
+    padding: 0rem;
+  }
+  .card-title {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .card-title:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 900px) {
+    .live-casino-nav {
+      margin-left: 0rem;
+    }
+    .casino-game-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

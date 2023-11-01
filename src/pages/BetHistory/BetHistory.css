@@ -1,0 +1,66 @@
+.bet-history-main {
+    margin-left: 18rem;
+  }
+  
+  .bet-history {
+    background: linear-gradient(to right, #2f5b69 0, #47889e 100%);
+    padding: 5px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .bet-filter {
+    background: #f7c200;
+    padding: 7px 10px;
+    border: solid 1px #f7c200;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #000;
+  }
+  .bet-history-input,
+  .bet-hitory-select {
+    border: 1px solid #007bff;
+    width: 15%;
+  }
+  
+  .bet-history-date {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  .bet-history-table > table > thead > tr > td {
+    background: #b9b9b9;
+  }
+  .all-games {
+    height: 40px;
+    gap: 3px;
+    margin-top: 10px;
+    display: flex;
+  }
+  
+  .all-games > div {
+    background-color: #f7c200;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 900px) {
+    .bet-history-table {
+      overflow-y: auto;
+    }
+    .bet-history-main {
+      margin-left: 0;
+    }
+    .bet-history-date {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .bet-history-input,
+    .bet-hitory-select {
+      width: 46%;
+    }
+  }
+  

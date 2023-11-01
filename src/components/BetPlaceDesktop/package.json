@@ -1,0 +1,6 @@
+{
+  "name": "BetPlaceDesktop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "BetPlaceDesktop.js"
+}

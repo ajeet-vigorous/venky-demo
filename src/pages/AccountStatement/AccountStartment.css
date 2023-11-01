@@ -1,0 +1,105 @@
+.acct-state {
+    background: linear-gradient(to right, #2f5b69 0, #47889e 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+  }
+  
+  .back-btn {
+    background: #e2a521;
+    border: none;
+    width: 57px;
+    height: 26px;
+    color: black;
+    margin-right: 1rem;
+    border-radius: 2px;
+  }
+  .date-search {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .search-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  .reset-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+  }
+  .all-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #000;
+    background-color: #e2a521;
+    border-color: #e2a521;
+  }
+  .pl-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+  }
+  .pdc-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+  }
+  .acct-btn {
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    width: 100px;
+    color: #000;
+    background: #efefef;
+  }
+  .A-btn {
+    display: flex;
+    gap: 2px;
+  }
+  .date-div {
+    display: flex;
+    gap: 10px;
+  }
+  #date-input {
+    border-color: 1px solid blue;
+    width: 150px;
+    height: 30px;
+  }
+  
+  @media (max-width: 900px) {
+    .date-search {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .A-btn {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .acct-stmt-table {
+      overflow-y: auto;
+    }
+  }
+  
