@@ -7,11 +7,11 @@ export default function RulesNotification(props) {
     console.log("DomainNameDomainName", DomainName);
     return (
         <div className='h-full md:h-screen absolute top-0 left-0 z-50 w-full bg-black/30 pt-0 p-3'>
-            <div className="bg-white md:w-[600px] w-full mx-auto">
+            <div className="bg-white md:w-[675px] w-full mx-auto">
                 <div className="flex justify-center items-center bg-[#204E57] text-center px-3 py-2 cursor-pointer w-full">
                     <span className="text-[22px] font-semibold text-[#FCCE34]">VANKY12.COM RULES</span>
                 </div>
-                <div className='overflow-y-auto h-[500px]'>
+                <div className='overflow-y-auto h-[505px]'>
                     <div className="flex justify-start items-center space-x-3 py-2 px-2 w-full border-b border-gray-400">
                         <span onClick={() => setVisible(false)} className="bg-[#5CB85C] text-white px-2 py-2 border-1 border-black rounded cursor-pointer">Hindi</span>
                         <span onClick={() => setVisible(true)} className="bg-[#5CB85C] text-white px-2 py-2 border-1 border-black rounded cursor-pointer">English</span>

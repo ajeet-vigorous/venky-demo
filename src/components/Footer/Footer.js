@@ -1,6 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { FaHome, FaThumbtack, FaRegMoneyBillAlt, FaKey, FaUserCircle } from 'react-icons/fa';
 import editstate from "../../Assets/Images/editstake.png";
 import inplay from "../../Assets/Images/inplay.png";
 import logout from "../../Assets/Images/logout.png";
@@ -9,6 +8,7 @@ import home from "../../Assets/Images/home.png";
 import "./Footer.css";
 
 const Footer = (props) => {
+  console.log("Footer Props are working and testing data ",props)
   const onClickMenu = (url) => {
     props.props.history.push(url)
   }
@@ -17,22 +17,22 @@ const Footer = (props) => {
 
     <div className="mobile-main">
       <div className="mobile-menu">
-        <div className="icon-menu">
+        <div className="icon-menu" onClick={() => onClickMenu("/app/accountstatement")}>
           <img src={inplay} alt="" />
           <span>Acc</span>
         </div>
-        <div className="icon-menu">
+        <div className="icon-menu" onClick={() => onClickMenu("/app/TotalLedger")}>
           <img src={editstate} alt="" />
           <span>Total</span>
         </div>
         <div className="home-icon" onClick={() => onClickMenu("/app/dashboard")}>
           <img src={home} alt="" className="home-image" />
         </div>
-        <div className="icon-menu">
+        <div className="icon-menu" onClick={() => onClickMenu("/app/my-bets")}>
           <img src={bethistory} alt="" />
           <span>P&L</span>
         </div>
-        <div className="icon-menu">
+        <div className="icon-menu" onClick={() => onClickMenu("/app/casino")}>
           <img src={logout} alt="" />
           <span>Casino</span>
         </div>

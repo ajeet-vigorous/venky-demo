@@ -83,19 +83,19 @@ class Dashboard extends React.Component {
         
                <Carousel fade>
                 <Carousel.Item>
-                  <img src={ronaldo} alt="" />
+                  <img src={ronaldo} alt="" width={1000}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={congrats} alt="" />
+                  <img src={congrats} alt="" width={1000} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={casino} alt="" />
+                  <img src={casino} alt="" width={1000} />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={livescore} alt="" />
+                  <img src={livescore} alt="" width={1000}/>
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img src={blackcard} alt="" />
+                  <img src={blackcard} alt="" width={1000}/>
                 </Carousel.Item>
               </Carousel> 
             </div>

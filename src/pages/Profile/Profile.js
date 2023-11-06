@@ -58,9 +58,9 @@ const Profile = () => {
                         </tbody>
                     </Table>
                     <div className="com-info">COMPANY INFORMATION</div>
-                    <Table striped bordered hover>
+                    <Table striped bordered hover className="mb-0">
                         <tbody className="company-contact">
-                            <tr>
+                            <tr className="">
                                 <td>Help Line No.</td>
                                 <td>+91 1234567890</td>
                             </tr>

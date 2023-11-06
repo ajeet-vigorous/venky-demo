@@ -283,6 +283,7 @@ function MatchListWithId(data) {
 }
 
 function games_list(data) {
+    console.log("emaildataemaildataemaildataemaildataemaildata",data)
     return dispatch => {
         dispatch(request());
         userService.games_list(data)
@@ -425,7 +426,7 @@ function save_bet(data, data2, state, setState) {
                     dispatch(success(users));
 
 
-                    // console.log("statestatestatestate  ",state);
+                    console.log("statestatestatestate  ",state);
                     let { oddsBetData } = state;
                     oddsBetData.push(data);
                     // setState({ oddsBetData });

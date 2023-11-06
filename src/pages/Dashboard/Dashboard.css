@@ -9,11 +9,6 @@
 }
 
 
-
-
-
-
-
 /* slider */
 
 .slider-main-div {
@@ -39,6 +34,16 @@
 
 .carousel-item {
     float: left;
+}
+@media(min-width: 320px) and (max-width: 400px) {
+    .carousel-item{
+        height: 150px;
+    }
+
+    .carousel-item>img{
+        height: 150px;
+    }
+
 }
 
 @media (max-width: 900px) {

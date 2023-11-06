@@ -4,13 +4,14 @@ import { updateCoin } from '../../_actions';
 
 const Balance = ({ balances, updateCoin, authentication, ...props }) => {
     const { staticCoin } = balances
-    const { user } = authentication
-    const { data } = user
+    const {  userDetails } = authentication
+    const { data } =  userDetails
     const {balance} =  data
    
+   
 
-    console.log("staticCoistaticCoinstaticCoinstaticCoin1111111", balance)
-
+    // console.log("staticCoistaticCoinstaticCoinstaticCoin1111111", user)
+    // console.log("staticCoistaticCoinstaticCoinstaticCoin2222222", balances)
     const newCoinValue = 20;
 
     const handleUpdateCoin = () => {
@@ -20,9 +21,12 @@ const Balance = ({ balances, updateCoin, authentication, ...props }) => {
     return (
         <div>
             {/* <p className='text-red-500'>{newBalance}</p> */}
-            <button onClick={handleUpdateCoin} className='bg-green-200'>Update Coin</button>
+            <span>current Balance Plus user data balance </span>&nbsp;&nbsp;
+            <button onClick={handleUpdateCoin} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>Update Coin
+           
+            </button>
             <br /> <br />
-            {/* <button onClick={()=>props.history.push('/app/dashboard')} className='bg-green-200'>dashboard</button> */}
+            <button onClick={()=>props.history.push('/app/dashboard')} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'> Go To Dashboard</button>
         </div>
     );
 };

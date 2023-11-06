@@ -13,13 +13,13 @@ export default function Rules(props) {
                 </div>
                 <div className='overflow-y-auto h-[500px]'>
                     <div className="flex justify-start items-center space-x-3 py-2 px-2 w-full border-b border-gray-400">
-                        <span onClick={() => setVisible(false)} className="bg-[#5CB85C] text-white px-2 py-2 border-1 border-black rounded cursor-pointer">Hindi</span>
-                        <span onClick={() => setVisible(true)} className="bg-[#5CB85C] text-white px-2 py-2 border-1 border-black rounded cursor-pointer">English</span>
+                        <span onClick={() => setVisible(false)} className="bg-[#5CB85C] text-white px-4 py-2 border-1 border-black rounded cursor-pointer">Hindi</span>
+                        <span onClick={() => setVisible(true)} className="bg-[#5CB85C] text-white px-4 py-2 border-1 border-black rounded cursor-pointer">English</span>
                     </div>
                     <div className='pl-6 py-3 w-full'>
                         {visible ? (
                             <div className='pl-2'>
-                                <div className=' text-center text-[18px] font-bold py-2'>
+                                <div className=' text-center text-left text-[18px] font-bold py-2'>
                                     Please take a few minutes here to understand the rules of
                                     VANKY12, and understand accordingly.
                                 </div>
